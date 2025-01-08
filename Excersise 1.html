@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+	<title>Q3Practice1</title>
+	<style>
+		#quotetext{
+			position: absolute;
+			top:35%;
+			left:50%;
+			transform: translate(-50%, -50%);
+		}
+	</style>
+
+</head>
+<body>
+ <h1>My New Year's Resolutions</h1>
+ <br>
+ <!--
+ <p id="sample">text</p>
+ -->
+ <div class="container-fluid" id="main">
+ 	  <div class="row"> 
+ 	       <center> 
+ 	       <div class="col-md-4" id="div2"> 
+ 	       	<img id="box" src="https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvam9iMjk1LXBsb3ktMDFhLTA1LmpwZw.jpg" class="img-fluid"> 
+ 	       		<div id="quotetext" class="col-md-3">
+ 	       			<p id="quote1"></p>
+ 	       			<p id="owner"></p> 
+
+ 				</div> 
+ 			</div> 
+ 			</center> 
+		</div> 
+</div>
+
+ <script> 
+ 	//place your quote here
+    	let quote1 = "Your future depends on <br> what you do today."
+    	let name = "Mahatma Gandhi";
+
+    	document.getElementById("quote1").innerHTML= quote1 + "<br>";
+    	document.getElementById("owner").innerHTML= name;
+ 	
+ 	/*
+ 	let goal1, goal2, goal3;
+ 	goal1 = "To come early in school";
+ 	goal2 = "To get msucles and get a six pack"; 
+ 	goal3 = "To join PBB";
+
+ 	document.getElementById("sample").innerHTML = goal1;
+ 	document.write("<h3 style=color; blue;>" +goal2 + "</h3>"); 
+ 	alert(goal3);
+
+ 	 	let a,b; //declare variables
+ 	a=4; //assign a value
+ 	b=5; //assign a value
+
+ 	//document,getElementById("sample").innerHTML = a + b; 
+ 	//document.write(a+b); 
+ 	window.alert(a-b); 
+ 	*/  
+ </script>
+</body>
+</html>	
